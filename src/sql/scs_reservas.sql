@@ -3,7 +3,7 @@
 # scs@localhost
 
 # CREATE DATABASE scs_reservas;
-USE scs_reservas;
+USE biblioteca;
 
 #
 # Table structure for table 'HOTEL'
@@ -32,7 +32,7 @@ CREATE TABLE `HOTEL` (
 
 INSERT INTO HOTEL VALUES (1,'32004','Hotel Pepe','2 estrellas','Ourense','As Lagoas','988333333','Hotel Restaurante Pepe','Ourense',1,1);
 INSERT INTO HOTEL VALUES (2,'32008','Hostal Lucas','2 estrellas','Ourense','A Ponte','988777777','Hostal Residencia Lucas','Ourense',2,1);
-INSERT INTO HOTEL VALUES (3,'15555','Hostal de los Reyes Cat�licos','5 estrellas gran lujo','Santiago','Plaza del Obradoiro, S/B','981595959','Parador nacional de turismo','A Coru�a',1,2);
+INSERT INTO HOTEL VALUES (3,'15555','Hostal de los Reyes Católicos','5 estrellas gran lujo','Santiago','Plaza del Obradoiro, S/B','981595959','Parador nacional de turismo','A Coruña',1,2);
 
 #
 # Table structure for table 'RESERVA'
@@ -89,14 +89,14 @@ CREATE TABLE `TIPOHABITACION` (
 # Dumping data for table 'TIPOHABITACION'
 #
 
-INSERT INTO TIPOHABITACION VALUES (1,'Doble grande',45,5,'Habitaci�n doble grande con TV',2,1,1);
-INSERT INTO TIPOHABITACION VALUES (2,'Doble peque�a',40,3,'Habitaci�n doble peque�a con TV',2,1,1);
-INSERT INTO TIPOHABITACION VALUES (3,'Individual',35,4,'Habitaci�n individual con TV',1,1,1);
-INSERT INTO TIPOHABITACION VALUES (4,'Doble',35,8,'Habitaci�n doble econ�mica con TV y ba�o',2,1,2);
-INSERT INTO TIPOHABITACION VALUES (5,'Individual',25,6,'Habitaci�n individual econ�mica con TV',1,1,2);
-INSERT INTO TIPOHABITACION VALUES (6,'Doble gran lujo',140,10,'Habitaci�n doble gran lujo, con TV e hidromasaje',2,1,3);
-INSERT INTO TIPOHABITACION VALUES (7,'Doble',80,20,'Habitaci�n doble normal con TV y ba�o',2,1,3);
-INSERT INTO TIPOHABITACION VALUES (8,'Individual',75,15,'Habitaci�n individual econ�mica con TV e hidromasaje',1,1,3);
+INSERT INTO TIPOHABITACION VALUES (1,'Doble grande',45,5,'Habitación doble grande con TV',2,1,1);
+INSERT INTO TIPOHABITACION VALUES (2,'Doble pequeña',40,3,'Habitación doble pequeña con TV',2,1,1);
+INSERT INTO TIPOHABITACION VALUES (3,'Individual',35,4,'Habitación individual con TV',1,1,1);
+INSERT INTO TIPOHABITACION VALUES (4,'Doble',35,8,'Habitación doble económica con TV y baño',2,1,2);
+INSERT INTO TIPOHABITACION VALUES (5,'Individual',25,6,'Habitación individual económica con TV',1,1,2);
+INSERT INTO TIPOHABITACION VALUES (6,'Doble gran lujo',140,10,'Habitación doble gran lujo, con TV e hidromasaje',2,1,3);
+INSERT INTO TIPOHABITACION VALUES (7,'Doble',80,20,'Habitación doble normal con TV y baño',2,1,3);
+INSERT INTO TIPOHABITACION VALUES (8,'Individual',75,15,'Habitación individual económica con TV e hidromasaje',1,1,3);
 
 #
 # Table structure for table 'USUARIO'
@@ -127,8 +127,8 @@ CREATE TABLE `USUARIO` (
 # Dumping data for table 'USUARIO'
 #
 
-INSERT INTO USUARIO VALUES (1,'administrador','ana@ana.com','2010-01-24','ana','2010-01-24','ana',1,'Ana','P�rez P�rez',NULL,NULL,NULL,NULL,NULL,NULL);
-INSERT INTO USUARIO VALUES (2,'administrador','eva@eva.com','2010-01-24','eva','2010-01-24','eva',1,'Eva','Garc�a Garc�a',NULL,NULL,NULL,NULL,NULL,NULL);
-INSERT INTO USUARIO VALUES (3,'cliente','luis@luis.com','2010-01-24','luis','2010-01-24','luis',1,'Luis','Fern�ndez Fern�ndez','32004','Ourense','11111111A','As Lagoas','988111111','Ourense');
-INSERT INTO USUARIO VALUES (4,'cliente','marcos@marcos.com','2010-01-24','marcos','2010-01-24','marcos',1,'Marcos','Mart�nez Mart�nez','15222','Santiago','22222222B','Praza Roxa','981222222','A Coru�a');
+INSERT INTO USUARIO VALUES (1,'administrador','ana@ana.com','2010-01-24','ana','2010-01-24','ana',1,'Ana','Pérez Pérez',NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO USUARIO VALUES (2,'administrador','eva@eva.com','2010-01-24','eva','2010-01-24','eva',1,'Eva','García García',NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO USUARIO VALUES (3,'cliente','luis@luis.com','2010-01-24','luis','2010-01-24','luis',1,'Luis','Fernández Fernández','32004','Ourense','11111111A','As Lagoas','988111111','Ourense');
+INSERT INTO USUARIO VALUES (4,'cliente','marcos@marcos.com','2010-01-24','marcos','2010-01-24','marcos',1,'Marcos','Marítnez Martínez','15222','Santiago','22222222B','Praza Roxa','981222222','A Coruña');
 
