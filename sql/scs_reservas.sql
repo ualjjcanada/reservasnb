@@ -3,7 +3,7 @@
 # scs@localhost
 
 # CREATE DATABASE IF NOT EXISTS scs_reservas;
-USE scs_reservas;
+USE cdb_26ee06b8e2;
 
 #
 # Table structure for table 'HOTEL'

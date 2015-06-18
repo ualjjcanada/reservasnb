@@ -105,9 +105,9 @@
 <!-- common configuration shared by all executions -->
                 <configuration>
                     <driver>com.mysql.jdbc.Driver</driver>
-                    <url>jdbc:mysql://localhost:3306/scs_reservas</url>
-                    <username>root</username>
-                    <password></password>
+                    <url>jdbc:mysql://eu-cdbr-azure-west-c.cloudapp.net:3306/cdb_26ee06b8e2</url>
+                    <username>b171ac401955b2</username>
+                    <password>1ef7e898</password>
 <!-- You can comment out username/password configurations
 and have maven to look them up in your settings.xml using
 ${settingsKey} -->
@@ -121,7 +121,7 @@ ${settingsKey} -->
                         <goal>execute</goal>
                     </goals>
                     <configuration>
-                        <url>jdbc:mysql://localhost:3306/scs_reservas</url>
+                        <url>jdbc:mysql://eu-cdbr-azure-west-c.cloudapp.net:3306/cdb_26ee06b8e2</url>
                         <autocommit>true</autocommit>
                         <srcFiles>
                             <srcFile>src/sql/scs_reservas.sql</srcFile>
